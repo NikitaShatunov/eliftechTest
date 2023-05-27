@@ -1,0 +1,156 @@
+[
+    {
+      "shop": "Піца Дей",
+      "id": "0",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "title": "Пепероні Фреш із перцем",
+      "price": 100
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "1",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "title": "Сирна",
+      "price": 125
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "2",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "title": "Курча барбекю",
+      "price": 95
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "3",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "title": "Кисло-солодке курча",
+      "price": 103
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "4",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "title": "Чізбургер-піца",
+      "price": 130
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "5",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+      "title": "Крейзі Пепероні",
+      "price": 110
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "6",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+      "title": "Пепероні",
+      "price": 150
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "7",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+      "title": "Маргарита",
+      "price": 90
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "8",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+      "title": "Чотири сезони",
+      "price": 155
+    },
+    {
+      "shop": "Піца Дей",
+      "id": "9",
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+      "title": "Овочі та гриби 🌱",
+      "price": 125
+    },
+    {
+      "shop": "Суші Вей",
+      "id": "1",
+      "imageUrl": "https://sushiwok.ua/img/bdc594f3f0036c83ef5be8b2a7842134/350x350",
+      "title": "Рол Філадельфія пепер",
+      "price": 289
+    },
+    {
+      "shop": "Суші Вей",
+      "id": "2",
+      "imageUrl": "https://sushiwok.ua/img/43d46e081f9fa0344beffd48f9abefce/350x350",
+      "title": "Рол Лайк Лосось",
+      "price": 149
+    },
+    {
+      "shop": "Суші Вей",
+      "id": "3",
+      "imageUrl": "https://sushiwok.ua/img/3a673e9f804a3da92a56f5e581325881/350x350",
+      "title": "Рол Інь Янь з лососем",
+      "price": 169
+    },
+    {
+      "shop": "Суші Вей",
+      "id": "4",
+      "imageUrl": "https://sushiwok.ua/img/79dd642ee2fe32f0901c1d6ce0aec800/350x350",
+      "title": "Рол Терiякi спайсi",
+      "price": 179
+    },
+    {
+      "shop": "Суші Вей",
+      "id": "5",
+      "imageUrl": "https://sushiwok.ua/img/28591e87b18503e423ca5da76c1d5143/350x350",
+      "title": "Чiкенс рол",
+      "price": 139
+    },
+    {
+      "shop": "Суші Вей",
+      "id": "6",
+      "imageUrl": "https://sushiwok.ua/img/68c3343bcad817a00e4251083e544450/350x350",
+      "title": "Набір Травня",
+      "price": 499
+    },
+    {
+      "shop": "Пузата хата",
+      "id": "1",
+      "imageUrl": "https://media.puzatahata.ua/__sized__/images/productosg/2021/05/15/22f033c9-5d90-43f0-b90b-c52390efeb50-thumbnail-400x400-100.jpg",
+      "title": "Жульєн з грибами та куркою",
+      "price": 96
+    },
+    {
+      "shop": "Пузата хата",
+      "id": "2",
+      "imageUrl": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/fgu2fpyndzv13fjfyuc5",
+      "title": "Вареники з яловичиною",
+      "price": 96
+    },
+    {
+      "shop": "Пузата хата",
+      "id": "3",
+      "imageUrl": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/tpvghaln5agqj9ucvqia",
+      "title": "Биточок з курки в сирі",
+      "price": 98
+    },
+    {
+      "shop": "Пузата хата",
+      "id": "4",
+      "imageUrl": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/mos4tmyzdgetnfueqyqy",
+      "title": "Салат Цезар",
+      "price": 118
+    },
+    {
+      "shop": "Пузата хата",
+      "id": "5",
+      "imageUrl": "https://media.puzatahata.ua/__sized__/images/productosg/2022/07/07/05d8aea6-3174-419e-b02f-860d19e631ac-thumbnail-400x400-100.jpg",
+      "title": "Лосось запечений",
+      "price": 238
+    },
+    {
+      "shop": "Пузата хата",
+      "id": "6",
+      "imageUrl": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/r2gvceyysjztcczojudr",
+      "title": "Комбо-меню Ситне",
+      "price": 252
+    }
+  ]
