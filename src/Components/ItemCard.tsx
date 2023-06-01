@@ -17,8 +17,10 @@ const ItemCard = ({id, imageUrl, title, price, shop }: Item) => {
     <div className="itemCardBlock">
       <div>
         <img className="itemCardBlock__photo" src={imageUrl} alt="photo" />
+        <div className="title__price">
         <div className="itemCardBlock__title">{title}</div>
         <div className="itemCardBlock__price">{price}₴</div>
+        </div>
         <img onClick={() => onClickAddItem(props)} className="add" src="/img/addsvg.svg" alt="add" />
       </div>
     </div>

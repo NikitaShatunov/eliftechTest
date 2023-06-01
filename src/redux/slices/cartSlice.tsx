@@ -1,4 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { calcTotalCount, calcTotalPrice } from "../../utils/getCartTotalPrice";
+
 
 
 export type Data = {
@@ -10,18 +12,32 @@ export type Data = {
     count: number;
 };
 
-interface InitialState {
+export interface InitialState {
     item: Data[];
     totalPrice: number;
     totalCount: number;
 }
 
-const initialState: InitialState = {
-    item: [],
-    totalPrice: 0,
-    totalCount: 0,
+
+const getJSONcartStorage = () => {
+    const dataItem = localStorage.getItem('cartItems')
+    const item = dataItem ? JSON.parse(dataItem) : []
+    const totalCount = calcTotalCount(item)
+    const totalPrice = calcTotalPrice(item)
+    return {
+        item,
+        totalCount,
+        totalPrice,
+    }
 }
 
+const { item, totalCount, totalPrice } = getJSONcartStorage()
+
+const initialState: InitialState = {
+    item: item,
+    totalPrice: totalPrice,
+    totalCount: totalCount,
+}
 
 const cartSlice = createSlice({
     name: 'cart',

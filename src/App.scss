@@ -6,16 +6,28 @@ a {
   }
 }
 header {
+  .leftPartHeader {
+    display: flex;
+  }
   display: flex;
+  justify-content: space-between;
   height: 60px;
   align-items: center;
-  background-color: lightgray;
+  background-color: #9BABB8;
   padding-left: 14px;
   .logo {
     font-weight: 500;
   }
-  .shopLink, .cartLink {
-    margin-left: 14px;
+  .cartLink {
+    margin-right: 14px;
+  }
+  .shopLink {
+    margin:0 14px;
+  }
+  .active {
+    text-decoration: underline;
+    color: rgb(46, 46, 46);
+    font-weight: 500;
   }
 }
 
@@ -37,7 +49,7 @@ header {
 }
 
 .titleOfBlock {
-  margin-bottom: 14px;
+  margin: 14px 0;
 }
 .home__wrapper {
   display: grid;
@@ -90,6 +102,14 @@ header {
     bottom: 2px;
     right: 8px;
     cursor: pointer;
+  }
+  .title__price {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    .itemCardBlock__price {
+      margin-top: 4px;
+    }
   }
 }
 
@@ -191,6 +211,13 @@ svg {
 }
 
 .count {
+  img {
+    width: 26px;
+    margin-right: 12px;
+  }
+  .minus, .plus {
+    cursor: pointer;
+  }
 display: flex;
 align-items: center;
 margin: 0;
@@ -318,4 +345,50 @@ border-bottom-right-radius: 12px;
 .afterOrderDone{
   text-align: center;
   margin-top: 220px;
+}
+.couponPage {
+  h3 {
+    text-align: center;
+  }
+}
+.couponPageBlock {
+  padding: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.coupon__wrapper {
+  cursor: pointer;
+    background: white;
+    position: relative;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 270px;
+    img {
+      width: 200px;
+    }
+    &:hover { 
+      filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.65));
+      transition: .2s;
+    }
+    .title {
+      margin-bottom: 24px;
+    }
+    .oldPrice, .title {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      display: flex;
+      .newPrice {
+        margin-left: 8px;
+      }
+    }
+}
+.unactive {
+  opacity: .4;
 }
