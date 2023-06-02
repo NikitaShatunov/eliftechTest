@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import * as React from "react";
 import { useAppSelector } from "../redux/redux";
 
-const Header = () => {
+const Header = React.memo(() => {
   const location = useLocation();
   const items = useAppSelector((state) => state.cart.item);
   React.useEffect(() => {
@@ -40,6 +40,6 @@ const Header = () => {
       </div>
     </header>
   );
-};
-
+}
+)
 export default Header;

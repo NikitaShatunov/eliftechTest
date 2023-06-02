@@ -89,6 +89,7 @@ header {
   height: 270px;
   &__photo {
     width: 200px;
+    border-radius: 8px
   }
   &:hover { 
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.65));
@@ -388,7 +389,14 @@ border-bottom-right-radius: 12px;
         margin-left: 8px;
       }
     }
+    .selectedCoupon {
+      position: absolute;
+      width: 30px;
+      right: 4px;
+      top: 4px;
+    }
 }
 .unactive {
   opacity: .4;
+  pointer-events:none;
 }

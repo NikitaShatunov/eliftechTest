@@ -6,8 +6,9 @@ export type Name = {
 };
 
 const ChooseShop = ({ name }: Name) => {
-  const dispatch = useAppDispatch();
   const shopName = useAppSelector((state) => state.shop.shopName);
+  const dispatch = useAppDispatch();
+
   const handleClick = (name: string) => {
     dispatch(setShopName(name));
   };

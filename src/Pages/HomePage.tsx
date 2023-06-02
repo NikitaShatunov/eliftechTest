@@ -5,6 +5,7 @@ import { fetchData } from "../redux/slices/dataSlice";
 import ItemCard from "../Components/ItemCard";
 import { setShopName } from "../redux/slices/shopSlice";
 import ItemsSceleton from "../Components/Sceletons/ItemsSceleton";
+import { title } from "process";
 
 const shopsArray = ['Пузата хата', "Піца Дей", "Суші Вей"]
 
@@ -14,15 +15,19 @@ const HomePage = () => {
     const item = useAppSelector(state => state.cart.item)
     const loading = useAppSelector(state => state.data.loading)
     const [shopButon, setShopButon] = React.useState(['Пузата хата', "Піца Дей", "Суші Вей"])
+    const coupon = useAppSelector(state => state.coupon.item)
     const dispatch = useAppDispatch()
     const skeletons = [...new Array(10)].map((_, i) => (
       <ItemsSceleton key={i} />
     ));
     React.useEffect(() => {
-      if(item.length) setShopButon([item[0].shop]);
       dispatch(fetchData(shopName));
-      
-      }, [shopName, item]);
+
+      }, [shopName, coupon]);
+      React.useEffect(() => {
+        if(item.length) setShopButon([item[0].shop]);
+        if(Boolean(coupon.title)) setShopButon([coupon.shop])
+      }, [item, coupon])
   return (
     <div className="home__wrapper">
       <div className="left__container">
